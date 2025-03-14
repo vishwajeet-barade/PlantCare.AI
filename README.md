@@ -8,9 +8,13 @@ Plant Care AI is an advanced IoT-based system that predicts plant diseases using
 
 🛠️ Features
 ✅ Plant Disease Prediction – Upload an image of a plant leaf to detect diseases using a trained TensorFlow/Keras model.
+
 ✅ IoT-Based Monitoring – Collect real-time data from sensors measuring temperature, humidity, soil pH, etc.
+
 ✅ Firebase Integration – Sensor data is stored and retrieved from Firebase for seamless analysis.
+
 ✅ Streamlit Web Application – A user-friendly interface to upload images, visualize sensor data, and track plant health trends.
+
 ✅ Statistical Analysis – View graphs and insights on environmental conditions affecting plant health.
 
 Block Diagram :
@@ -22,21 +26,31 @@ About Dataset : -This dataset consists of more than 87,000 images each of health
 
 📡 IoT Integration
 This project uses IoT sensors to collect data and send it to Firebase. The following sensors are used:
+
 🔹 DHT11 – Measures temperature & humidity
+
 🔹 Soil Moisture Sensor – Detects soil moisture levels
+
 🔹 pH Sensor – Measures soil acidity
+
 🔹 Light Intensity Sensor (BH1750) – Monitors sunlight exposure
 
 Data Flow
 1️⃣ ESP8266/NodeMCU reads sensor data.
+
 2️⃣ Data is sent to Firebase Realtime Database.
+
 3️⃣ Streamlit app retrieves and visualizes the data.
 
 🛠️ Technologies Used
 🔹 Python (TensorFlow, Streamlit, Pandas, OpenCV, NumPy)
+
 🔹 Firebase (Realtime Database)
+
 🔹 IoT Sensors (DHT11, Soil Moisture, pH, BH1750)
+
 🔹 Machine Learning (Deep Learning Model for Disease Prediction)
+
 🔹 ESP8266/NodeMCU (For Sensor Data Collection)
 
 🔗 Firebase Setup
@@ -47,6 +61,7 @@ Ensure Firebase Admin SDK is properly configured in app.py.
  >>Steps to Run the Project :
 1] Clone the repository :
 git clone https://github.com/vishwajeet-barade/Plant-Care-AI.git
+
 cd Plant-Care-AI
 
 2]pip install -r requirements.txt
