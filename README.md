@@ -82,7 +82,7 @@ Ensure Firebase Admin SDK is properly configured in app.py.
  >>Steps to Run the Project :
 
 1] Clone the repository :
-git clone https://github.com/vishwajeet-barade/Plant-Care-AI.git
+git clone https://github.com/vishwajeet-barade/PlantCare.AI.git
 
 cd Plant-Care-AI
 
